@@ -1,0 +1,40 @@
+linux commands
+pwd (/home/ubuntu/ -- default)
+cat> filename
+touch filename
+mkdir dirname
+ls
+ls -l
+ls -a
+ls -la
+rm filename
+rmdir dirname (empty dir)
+rm -r dirname (any dir)
+cd dirname
+whoami
+sudo su root
+sudo su -
+sudo su any_existing_user
+chmod
+date
+time
+cal
+head -<no.of_lines_from_top> <filename>
+tail -<no.of_lines_from_top> <filename>
+
+GIT commands
+tree
+sudo apt-get update
+sudo apt-get install <package_name>
+sudo apt-get remove <package_name>
+git init
+git add <filename> (or) git add . 
+	revert---> git rm --chached filename or git reset filename
+git commit -m "<any_comment>"
+git status
+git log (or) git log --oneline
+git branch <branch_name>
+git checkout <branch_name>
+git branch
+git rebase -i HEAD~4
+git merge <child_branch_name>
